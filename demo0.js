@@ -1,12 +1,11 @@
 var angle = Math.ceil(Math.random() * 1800)
 var nowtriangle = 0
 var triger = false
-function getTags(classname) {    //获取dom节点
-    return document.getElementsByClassName(classname)[0]
-}
-document.onclick = function (e) {
+var listener = document.getElementsByClassName('start')
+listener[0].addEventListener('click',clickRun)
+function clickRun() {
     console.log("click")
-    var target = e.target || e.srcElement
+    var target = document.getElementsByClassName("start")[0]
     console.log(target.className)
     if (target.className == "start" && triger == false) {
         console.log('验证通过')
@@ -16,10 +15,10 @@ document.onclick = function (e) {
     }
 }
 function star() {
-    var operate = getTags('triangle')
+    var operate = document.getElementsByClassName('triangle')[0]
     console.log('开始转啊'+angle)
     if (nowtriangle < angle) {
-        if(nowtriangle < angle-200){
+        if(nowtriangle < angle-300){
             nowtriangle = nowtriangle + 10
         }else{
             nowtriangle = nowtriangle + 5

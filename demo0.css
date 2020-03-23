@@ -1,0 +1,312 @@
+ul {
+  height: 400px;
+  width: 400px;
+  border-radius: 200px 200px;
+  overflow: hidden;
+  background-color: bisque;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+ul li:nth-child(1) {
+  list-style-type: none;
+  transform: rotate(180deg);
+  transform-origin: center;
+  display: block;
+  position: absolute;
+  border-right: 53.6px solid transparent;
+  border-left: 53.6px solid transparent;
+  border-top: 200px solid transparent;
+  margin-left: 146.5px;
+  width: 0;
+}
+ul li:nth-child(1) div {
+  position: absolute;
+  bottom: -150px;
+}
+ul li:nth-child(odd) {
+  border-bottom: 200px solid brown;
+}
+ul li:nth-child(even) {
+  border-bottom: 200px solid #2fdbdb;
+}
+ul li:nth-child(2) {
+  list-style-type: none;
+  transform: rotate(210deg);
+  transform-origin: center;
+  display: block;
+  position: absolute;
+  border-right: 53.6px solid transparent;
+  border-left: 53.6px solid transparent;
+  border-top: 200px solid transparent;
+  margin-left: 146.5px;
+  width: 0;
+}
+ul li:nth-child(2) div {
+  position: absolute;
+  bottom: -150px;
+}
+ul li:nth-child(odd) {
+  border-bottom: 200px solid brown;
+}
+ul li:nth-child(even) {
+  border-bottom: 200px solid #2fdbdb;
+}
+ul li:nth-child(3) {
+  list-style-type: none;
+  transform: rotate(240deg);
+  transform-origin: center;
+  display: block;
+  position: absolute;
+  border-right: 53.6px solid transparent;
+  border-left: 53.6px solid transparent;
+  border-top: 200px solid transparent;
+  margin-left: 146.5px;
+  width: 0;
+}
+ul li:nth-child(3) div {
+  position: absolute;
+  bottom: -150px;
+}
+ul li:nth-child(odd) {
+  border-bottom: 200px solid brown;
+}
+ul li:nth-child(even) {
+  border-bottom: 200px solid #2fdbdb;
+}
+ul li:nth-child(4) {
+  list-style-type: none;
+  transform: rotate(270deg);
+  transform-origin: center;
+  display: block;
+  position: absolute;
+  border-right: 53.6px solid transparent;
+  border-left: 53.6px solid transparent;
+  border-top: 200px solid transparent;
+  margin-left: 146.5px;
+  width: 0;
+}
+ul li:nth-child(4) div {
+  position: absolute;
+  bottom: -150px;
+}
+ul li:nth-child(odd) {
+  border-bottom: 200px solid brown;
+}
+ul li:nth-child(even) {
+  border-bottom: 200px solid #2fdbdb;
+}
+ul li:nth-child(5) {
+  list-style-type: none;
+  transform: rotate(300deg);
+  transform-origin: center;
+  display: block;
+  position: absolute;
+  border-right: 53.6px solid transparent;
+  border-left: 53.6px solid transparent;
+  border-top: 200px solid transparent;
+  margin-left: 146.5px;
+  width: 0;
+}
+ul li:nth-child(5) div {
+  position: absolute;
+  bottom: -150px;
+}
+ul li:nth-child(odd) {
+  border-bottom: 200px solid brown;
+}
+ul li:nth-child(even) {
+  border-bottom: 200px solid #2fdbdb;
+}
+ul li:nth-child(6) {
+  list-style-type: none;
+  transform: rotate(330deg);
+  transform-origin: center;
+  display: block;
+  position: absolute;
+  border-right: 53.6px solid transparent;
+  border-left: 53.6px solid transparent;
+  border-top: 200px solid transparent;
+  margin-left: 146.5px;
+  width: 0;
+}
+ul li:nth-child(6) div {
+  position: absolute;
+  bottom: -150px;
+}
+ul li:nth-child(odd) {
+  border-bottom: 200px solid brown;
+}
+ul li:nth-child(even) {
+  border-bottom: 200px solid #2fdbdb;
+}
+ul li:nth-child(7) {
+  list-style-type: none;
+  transform: rotate(360deg);
+  transform-origin: center;
+  display: block;
+  position: absolute;
+  border-right: 53.6px solid transparent;
+  border-left: 53.6px solid transparent;
+  border-top: 200px solid transparent;
+  margin-left: 146.5px;
+  width: 0;
+}
+ul li:nth-child(7) div {
+  position: absolute;
+  bottom: -150px;
+}
+ul li:nth-child(odd) {
+  border-bottom: 200px solid brown;
+}
+ul li:nth-child(even) {
+  border-bottom: 200px solid #2fdbdb;
+}
+ul li:nth-child(8) {
+  list-style-type: none;
+  transform: rotate(390deg);
+  transform-origin: center;
+  display: block;
+  position: absolute;
+  border-right: 53.6px solid transparent;
+  border-left: 53.6px solid transparent;
+  border-top: 200px solid transparent;
+  margin-left: 146.5px;
+  width: 0;
+}
+ul li:nth-child(8) div {
+  position: absolute;
+  bottom: -150px;
+}
+ul li:nth-child(odd) {
+  border-bottom: 200px solid brown;
+}
+ul li:nth-child(even) {
+  border-bottom: 200px solid #2fdbdb;
+}
+ul li:nth-child(9) {
+  list-style-type: none;
+  transform: rotate(420deg);
+  transform-origin: center;
+  display: block;
+  position: absolute;
+  border-right: 53.6px solid transparent;
+  border-left: 53.6px solid transparent;
+  border-top: 200px solid transparent;
+  margin-left: 146.5px;
+  width: 0;
+}
+ul li:nth-child(9) div {
+  position: absolute;
+  bottom: -150px;
+}
+ul li:nth-child(odd) {
+  border-bottom: 200px solid brown;
+}
+ul li:nth-child(even) {
+  border-bottom: 200px solid #2fdbdb;
+}
+ul li:nth-child(10) {
+  list-style-type: none;
+  transform: rotate(450deg);
+  transform-origin: center;
+  display: block;
+  position: absolute;
+  border-right: 53.6px solid transparent;
+  border-left: 53.6px solid transparent;
+  border-top: 200px solid transparent;
+  margin-left: 146.5px;
+  width: 0;
+}
+ul li:nth-child(10) div {
+  position: absolute;
+  bottom: -150px;
+}
+ul li:nth-child(odd) {
+  border-bottom: 200px solid brown;
+}
+ul li:nth-child(even) {
+  border-bottom: 200px solid #2fdbdb;
+}
+ul li:nth-child(11) {
+  list-style-type: none;
+  transform: rotate(480deg);
+  transform-origin: center;
+  display: block;
+  position: absolute;
+  border-right: 53.6px solid transparent;
+  border-left: 53.6px solid transparent;
+  border-top: 200px solid transparent;
+  margin-left: 146.5px;
+  width: 0;
+}
+ul li:nth-child(11) div {
+  position: absolute;
+  bottom: -150px;
+}
+ul li:nth-child(odd) {
+  border-bottom: 200px solid brown;
+}
+ul li:nth-child(even) {
+  border-bottom: 200px solid #2fdbdb;
+}
+ul li:nth-child(12) {
+  list-style-type: none;
+  transform: rotate(510deg);
+  transform-origin: center;
+  display: block;
+  position: absolute;
+  border-right: 53.6px solid transparent;
+  border-left: 53.6px solid transparent;
+  border-top: 200px solid transparent;
+  margin-left: 146.5px;
+  width: 0;
+}
+ul li:nth-child(12) div {
+  position: absolute;
+  bottom: -150px;
+}
+ul li:nth-child(odd) {
+  border-bottom: 200px solid brown;
+}
+ul li:nth-child(even) {
+  border-bottom: 200px solid #2fdbdb;
+}
+
+.outer {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.start {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px 50px;
+  z-index: 100;
+  left: 200px;
+  top: 200px;
+  transform: translate(-50%, -50%);
+  background-color: palevioletred;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+.start div {
+  margin: 0 auto;
+  position: relative;
+}
+
+.triangle {
+  position: absolute;
+  left: 180px;
+  bottom: 200px;
+  border-bottom: 80px solid peru;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-top: 80px solid transparent;
+}
+
+/*# sourceMappingURL=demo0.css.map */

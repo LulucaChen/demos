@@ -1,0 +1,73 @@
+$angle: 30edge;
+ul{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px 200px;
+    overflow: hidden;
+    background-color: bisque;
+    margin: 0 auto;
+    padding: 0;  
+    position: relative;  
+    @for $i from 1 through 12{
+        li:nth-child(#{$i}){
+            list-style-type: none;
+            transform:rotate(30deg*$i+150deg);
+            transform-origin: center;
+            display: block;
+            position: absolute;
+            border-right: 53.6px solid transparent;
+            border-left: 53.6px solid transparent;
+            border-top: 200px solid transparent;
+            margin-left: 146.5px;
+            width: 0;
+            div{
+                position: absolute;
+                bottom: -150px;
+            }            
+        }
+        li:nth-child(odd){
+            border-bottom: 200px solid brown;
+        }
+        li:nth-child(even){
+            border-bottom: 200px solid rgb(47, 219, 219);
+        }
+
+    }
+    // li::after{
+    //     overflow: hidden;
+    // }
+}
+.outer{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+.start{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 50px;
+    z-index: 100;
+    left: 200px;
+    top: 200px;
+    transform: translate(-50%,-50%);
+    background-color: palevioletred;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    div{
+        margin: 0 auto;
+        position: relative;
+    }
+}
+.triangle{
+    position: absolute;
+    left: 180px;
+    bottom: 200px;
+    // z-index: -10;
+    border-bottom: 80px solid peru;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-top: 80px solid transparent;
+}
